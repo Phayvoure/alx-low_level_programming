@@ -9,13 +9,15 @@
  * @n: number of chars to include from appended string
  * Return: char pointer
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0, j = 0;
-	char *p;
+	int i = 0;
+	int j = 0;
 
 	while (*(dest + i) != '\0')
 		i++;
+
 	while (!(*(src + j) == '\0' || j == n))
 	{
 		*(dest + i) = *(src + j);
@@ -23,6 +25,6 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 	*(dest + i) = '\0'
-		p = dest;
-	return (p);
+
+	return (dest);
 }
