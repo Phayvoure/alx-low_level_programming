@@ -3,7 +3,7 @@
 
 /*
  * File: lists.h
- * Auth: Akanegbu Favour
+ * Auth: Favour Akanegbu
  */
 
 #include <stdio.h>
